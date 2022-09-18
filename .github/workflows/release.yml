@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kingdutch/social-docker-chrome:latest
+          tags: kingdutch/social-docker-chrome:latest-with-chrome
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
