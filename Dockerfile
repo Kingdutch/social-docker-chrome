@@ -1,4 +1,4 @@
-FROM zenika/alpine-chrome:latest
+FROM zenika/alpine-chrome:latest:with-chromedriver
 
 # Disables GPU hardware acceleration. If software renderer is not in place, then the GPU process won't launch.
 # Disables the sandbox for all process types that are normally sandboxed. Meant to be used as a browser-level switch for testing purposes only.
